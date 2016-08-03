@@ -11,7 +11,7 @@ mod 'saz/ssh'
 mod 'rehan/nginx'
 
 # GIT
-mod 'Aethylred/git'
+mod 'puppetlabs/git'
 
 # PHP
 mod 'mayflower/php',

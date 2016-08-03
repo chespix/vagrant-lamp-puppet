@@ -7,7 +7,7 @@ require 'yaml'
 # Load custom settings
 settings = YAML.load_file('custom.yaml')
 
-components = %w(webserver)
+components = %w(exhibition cloud)
 
 Vagrant.configure(2) do |config|
   # Automatically manage host entries (requires 'vagrant-hostmanager' plugin)
